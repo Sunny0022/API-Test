@@ -20,7 +20,7 @@ And(/^I should see the status code also$/) do
 
   p @pro.getMessage
   p @pro.getCode
-  assert_equal @pro.getCode, '400'
+  
 end
 
 
